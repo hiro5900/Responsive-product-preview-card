@@ -8,3 +8,5 @@ This a responsive product preview card.
 - CSS custom properties
 - CSS Flexbox
 - CSS grid
+
+[Visit website][https://hiro5900.github.io/Responsive-product-preview-card/]
