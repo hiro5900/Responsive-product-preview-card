@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+html {
+     font-size: 14px;
+}
+
+/* For Mobile Devices  */
+@media (max-width: 500px) {
+     body {
+          display: grid;
+          justify-items: center;
+          align-items: center;
+          background-color: hsl(30, 38%, 92%);
+     }
+
+     .container {
+          display: flex;
+          flex-direction: column;
+          margin: 60px auto;
+          max-width: 95%;
+          max-height: 100%;
+          border-radius: 11px;
+          overflow: hidden;
+     }
+
+     .img-mobile {
+          background-image: url('image-product-mobile.jpg');
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+          max-height: auto;
+     }
+
+     .img-desktop {
+          display: none;
+     }
+
+     .info-section {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          background-color: white;
+          margin: 0;
+          padding: 10px 23px 23px 23px;
+     }
+
+     .p1 {
+          color: hsl(228, 12%, 48%);
+          margin: 14px 0 -10px 0;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 0.87rem;
+     }
+
+     h1 {
+          font-family: 'Fraunces', serif;
+          font-weight: 700;
+          color: hsl(212, 21%, 14%);
+          line-height: 0.97;
+     }
+
+     .p2 {
+          color: hsl(228, 12%, 48%);
+          margin: -6px 0 0 0;
+          font-family: 'Montserrat', sans-serif;
+     }
+
+     .pricing {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+     }
+
+     .discounted-price {
+          color: hsl(158, 36%, 37%);
+     }
+
+     .original-price {
+          text-decoration: line-through;
+          margin: 0 0 0 20px;
+     }
+
+     .btn {
+          background-color: hsl(158, 36%, 37%);
+          color: white;
+          border: none;
+          border-radius: 8px;
+          height: 48px;
+          box-shadow: none;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          font-size: 1rem;
+     }
+
+     .btn:hover {
+          background-color: hsl(158deg 50.57% 13.95%);
+     }
+
+     svg {
+          margin: 0 11px -2px -21px;
+     }
+}
+
+/* For Desktop devices or tablets */
+
+@media (min-width: 501px) {
+     body {
+          display: grid;
+          justify-items: center;
+          align-items: center;
+          background-color: hsl(30, 38%, 92%);
+     }
+
+     .container {
+          display: flex;
+          margin: 170px auto;
+          /* width: 500px; */
+          max-width: 532px;
+          height: 400px;
+          /* max-height: 400px; */
+          border-radius: 11px;
+          overflow: hidden;
+     }
+
+     .img-mobile {
+          display: none;
+     }
+
+     .img-desktop {
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+          max-height: auto;
+     }
+
+     .info-section {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          background-color: white;
+          margin: 0;
+          padding: 0px 23px 0px 26px;
+     }
+
+     .p1 {
+          color: hsl(228, 12%, 48%);
+          margin: 4px 0 0px 0px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 0.8rem;
+     }
+
+     h1 {
+          font-family: 'Fraunces', serif;
+          font-weight: 700;
+          color: hsl(212, 21%, 14%);
+          line-height: 0.97;
+          padding: 0 2px 0 0;
+     }
+
+     .p2 {
+          color: hsl(228, 12%, 48%);
+          margin: 6px 0 5px 0;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 0.9rem;
+          line-height: 1.65;
+     }
+
+     .pricing {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+     }
+
+     .discounted-price {
+          color: hsl(158, 36%, 37%);
+     }
+
+     .original-price {
+          text-decoration: line-through;
+          margin: 0 0 0 20px;
+     }
+
+     .btn {
+          background-color: hsl(158, 36%, 37%);
+          color: white;
+          border: none;
+          border-radius: 8px;
+          height: 48px;
+          box-shadow: none;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          font-size: 1rem;
+          margin: 7px 0 0 0;
+     }
+
+     .btn:hover {
+          background-color: hsl(158deg 50.57% 13.95%);
+          cursor: pointer;
+     }
+
+     svg {
+          margin: 0 11px -2px -3px;
+     }
+}
